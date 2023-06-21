@@ -209,7 +209,7 @@ export default function CardGeneralParameterInputs({
             />
           </h5>
           <Select
-            isDisabled
+            // isDisabled
             value={{
               value: parameters.category,
               label: categoryMap[parameters.category],
